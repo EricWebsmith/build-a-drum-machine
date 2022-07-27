@@ -1,0 +1,55 @@
+* {
+  border: 1px solid red;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#drum-machine {
+  width: 200px;
+  pad: 10px auto;
+  border-color: gray;
+  background-color: wheat;
+}
+
+#display {
+  height: 50px;
+  font-size: 2rem;
+}
+
+.drum-pad {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin: 6px;
+  background-color: rgb(34, 5, 5);
+  color: wheat;
+}
+
+.drum-pad:hover {
+  background-color: rgb(34, 5, 5, 0.75);
+}
+
+.drum-pad:active {
+  background-color: rgb(34, 5, 5, 0.5);
+}
+
+.pads {
+  width: 200px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  justify-content:space-around;
+  
+}
